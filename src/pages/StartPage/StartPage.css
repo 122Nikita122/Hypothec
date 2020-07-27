@@ -1,0 +1,29 @@
+.startpage {
+  padding: 16px 32px 0 32px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.startpage p {
+  text-align: center;
+}
+.startpage img {
+  margin-top: 16px;
+}
+
+.startpage__button {
+  margin-top: 29px;
+  width: 220px;
+  height: 40px;
+  font-size: 16px;
+  color: #bc0000;
+  text-align: center;
+  border-radius: 42px;
+  background: #f1f2f4;
+  line-height: 40px;
+  text-decoration: none;
+}
+.startpage__button:active {
+  background: #bc0000;
+  color: white;
+}

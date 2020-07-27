@@ -1,0 +1,17 @@
+.main {
+  display: flex;
+  flex-direction: column;
+  padding: 32px;
+}
+.main p {
+  font-size: 16px;
+  font-family: "Lato-normal", sans-serif;
+  color: rgba(0, 0, 0, 0.72);
+}
+.main h2 {
+  font-size: 22px;
+}
+/* .Input__block {
+  display: flex;
+  flex-direction: column;
+} */

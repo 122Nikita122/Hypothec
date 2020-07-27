@@ -1,0 +1,105 @@
+.buttons {
+  display: flex;
+  justify-content: space-between;
+  padding: 24px 0 0 0;
+}
+
+/* .button__block {
+  display: block;
+  position: relative;
+  width: 112px;
+  height: 42px;
+  background: #f1f2f4;
+  border-radius: 4px;
+  border-style: none;
+  font-size: 16px;
+} */
+.button_left,
+.button_rigth {
+  display: block;
+  position: relative;
+  height: 42px;
+  background: #f1f2f4;
+  border-radius: 4px;
+  border-style: none;
+  font-size: 16px;
+  line-height: 42px;
+  text-decoration: none;
+  font-family: "Lato-normal", sans-serif;
+  padding-top: 1px;
+  color: #bc0000;
+  padding: 0 16px 0 60px;
+}
+.button_rigth {
+  margin-left: 16px;
+  padding: 0 60px 0 16px;
+}
+.button_rigth::before,
+.button_rigth::after {
+  position: absolute;
+  display: block;
+  content: "";
+  width: 13px;
+  height: 2px;
+  background: #bc0000;
+  transform: rotate(45deg);
+  margin-top: 16px;
+  margin-left: 80px;
+}
+.button_rigth::after {
+  transform: rotate(135deg);
+  margin-top: -17px;
+  margin-left: 80px;
+  width: 11px;
+}
+
+.button_left::before,
+.button_left::after {
+  position: absolute;
+  display: block;
+  content: "";
+  width: 13px;
+  height: 2px;
+  background: #bc0000;
+  transform: rotate(135deg);
+  margin-top: 16px;
+  margin-left: -40px;
+}
+.button_left::after {
+  transform: rotate(45deg);
+  width: 11px;
+  margin-top: -18px;
+  margin-left: -40px;
+}
+
+.button_rigth:active,
+.button_left:active {
+  color: white;
+  background: #bc0000;
+}
+.button_rigth:active::before,
+.button_rigth:active::after,
+.button_left:active::before,
+.button_left:active::after {
+  background: white;
+}
+.namescreen_button {
+  padding-left: 198px;
+}
+.button_disabled {
+  color: rgba(21, 34, 66, 0.2);
+}
+.button_disabled:active {
+  color: rgba(21, 34, 66, 0.2);
+  background: #f1f2f4;
+}
+.button_disabled::before,
+.button_disabled::after {
+  background: rgba(21, 34, 66, 0.2);
+}
+.button_disabled:active::before,
+.button_disabled:active::after,
+.button_disabled:active::before,
+.button_disabled:active::after {
+  background: rgba(21, 34, 66, 0.2);
+}

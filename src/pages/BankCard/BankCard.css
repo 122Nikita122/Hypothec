@@ -1,0 +1,28 @@
+.BankCard {
+  padding: 16px 32px 0 32px;
+}
+.BankCard h2 {
+  margin-bottom: 32px;
+}
+.Bank_block {
+  width: 343px;
+  height: 48px;
+  font-size: 16px;
+  display: flex;
+}
+.choice {
+  background: #f1f2f4;
+  border-radius: 4px;
+  background-image: url("../../img/credit-card-front.png");
+  background-repeat: no-repeat;
+  background-position: 95% center;
+}
+.BankCard_input:checked,
+.BankCard_input:not(:checked) {
+  position: absolute;
+  left: -9999px;
+}
+.BankCard_label {
+  margin-top: 13px;
+  cursor: pointer;
+}

@@ -1,0 +1,61 @@
+.app {
+  width: 375px;
+}
+.head {
+  display: flex;
+  align-items: center;
+  height: 50;
+  border-bottom: solid 1px #e6e6e6;
+  padding-left: 20px;
+  padding-right: 15px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.head div {
+  flex: 1;
+}
+
+.head div:nth-of-type(2) {
+  flex: 10;
+}
+.logo {
+  padding-left: 38px;
+  background-image: url(../../img/logo1.png);
+  background-repeat: no-repeat;
+  background-size: 1em;
+  background-position: left center;
+  font-size: 26px;
+  line-height: 31px;
+  font-weight: 800;
+  margin-left: 37px;
+}
+.menu {
+  width: 20px;
+  position: relative;
+  padding-bottom: 10px;
+}
+.menu_line {
+  position: absolute;
+  width: 20px;
+  height: 2px;
+  border-bottom-width: 20px;
+  background: #152242;
+}
+.menu_line::before,
+.menu_line::after {
+  content: "";
+  height: 2px;
+  position: absolute;
+  background: #152242;
+  width: 20px;
+  margin-top: 6px;
+}
+.menu_line::after {
+  margin-top: 12px;
+}
+.logo p {
+  margin: 0;
+  color: transparent;
+  -webkit-background-clip: text;
+  background-image: linear-gradient(to right, #0433ff, red);
+}

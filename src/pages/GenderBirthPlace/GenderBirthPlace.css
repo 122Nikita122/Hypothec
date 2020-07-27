@@ -1,0 +1,50 @@
+.FloorBirthPlace {
+  padding: 32px;
+}
+.block_switchfloor {
+  display: flex;
+  width: 311px;
+  height: 40px;
+  background: #f1f2f4;
+  border-radius: 4px;
+  justify-content: space-around;
+  align-items: center;
+  margin: auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.woman,
+.man {
+  width: 156px;
+  height: 100%;
+  text-align: center;
+  border: none;
+  color: #bc0000;
+  cursor: pointer;
+}
+.woman:focus,
+.man:focus {
+  outline: none;
+}
+.choice_woman {
+  transition: background 0.5s ease-out;
+  background: #bc0000;
+  border-radius: 4px;
+  height: 48px;
+  color: white;
+}
+.choice_woman:focus {
+  outline: none;
+}
+
+.choice_man {
+  transition: background 0.5s ease-out;
+  background: #bc0000;
+  border-radius: 4px;
+  height: 48px;
+  color: white;
+}
+.choice_man:focus {
+  outline: none;
+}

@@ -1,0 +1,26 @@
+.town {
+  padding: 32px;
+}
+.town_choice {
+  font-family: "Lato-normal", sans-serif;
+  color: rgba(0, 0, 0, 0.54);
+  font-size: 16px;
+  line-height: 22px;
+  text-align: center;
+}
+.town_name {
+  font-family: "Lato-normal", sans-serif;
+  font-size: 22px;
+  line-height: 28px;
+  color: rgba(0, 0, 0, 0.87);
+  text-align: center;
+  font-weight: bold;
+}
+.town_sentence {
+  font-family: "Lato-normal", sans-serif;
+  font-size: 16px;
+  line-height: 22px;
+  text-align: center;
+  font-style: italic;
+  color: rgba(0, 0, 0, 0.32);
+}

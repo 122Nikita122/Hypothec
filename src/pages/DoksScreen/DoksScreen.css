@@ -1,0 +1,79 @@
+.DocksScreen {
+  padding: 16px 32px 0 32px;
+}
+.DocksBlock__icon {
+  display: flex;
+  flex: 1;
+  align-items: center;
+  justify-content: space-around;
+  height: 89px;
+}
+.DocksBlock {
+  border: 1px solid #f2f2f2;
+  margin-top: 15px;
+  border-radius: 4px;
+}
+.DoksBlock_div,
+.DoksBlock_div_shadow {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.DoksBlock_div_shadow {
+  width: 103px;
+  height: 109px;
+  border-radius: 8px;
+  box-shadow: 0px 12px 32px rgba(0, 0, 0, 0.15);
+  background: #ffffff;
+}
+.Docks__text {
+  padding: 0 16px 0 16px;
+  border-top: 1px solid #f2f2f2; /*тут будет бордер с "градиентом", а пока пусть будет так*/
+  font-style: italic;
+  color: rgba(0, 0, 0, 0.54);
+}
+.icon,
+.selected {
+  display: flex;
+  cursor: pointer;
+}
+.icon:checked,
+.selected:checked,
+.icon:not(:checked),
+.selected:not(:checked) {
+  position: absolute;
+  left: -9999px;
+}
+.selected {
+  width: 103px;
+  height: 109px;
+  box-shadow: 0px 12px 32px rgba(0, 0, 0, 0.15);
+}
+.radio_label {
+  font-size: 14px;
+  color: rgba(0, 0, 0, 0.54);
+  cursor: pointer;
+}
+.radio_label_red {
+  font-size: 14px;
+  color: red;
+  cursor: pointer;
+}
+
+.Docks__text {
+  font-family: "Lato-italic", sans-serif;
+  font-size: 14px;
+  text-align: center;
+}
+.DocksScreen_text {
+  font-family: "Lato-italic", sans-serif;
+  font-size: 16px;
+  color: rgba(0, 0, 0, 0.72);
+  margin-bottom: 21px;
+  margin-top: 19px;
+}
+
+/* .ndfl{
+  background-image: url();
+} */

@@ -1,0 +1,16 @@
+.MilitaryService {
+  padding: 16px 32px 0 32px;
+}
+.MilitaryService h2 {
+  margin-bottom: 25px;
+}
+
+.select_block_leybel {
+  color: rgba(0, 0, 0, 0.54);
+  font-size: 14px;
+  line-height: 18px;
+}
+
+.MilitaryService_margin {
+  margin-bottom: 144px;
+}
